@@ -1,0 +1,36 @@
+.mainTotal{
+    background-color: red;
+    width: 19%;
+    position: sticky;
+    border-radius: 10px;
+    top:30px;
+    height: 300px;
+    background: linear-gradient(
+        to top,
+        #00000021 0%,          
+        rgba(248, 247, 247, 0.177) 40%
+      );
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.buttonWrapper button{
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    border: bottom raduis 10px; ;
+    text-align: center;
+    height: 20px;
+    background-color: rgb(0, 58, 0);
+    color: white;
+}
